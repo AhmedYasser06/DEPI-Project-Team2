@@ -24,3 +24,30 @@ AI-Predictive-Maintenance/
 │── models/              # Trained model files
 │── deployment/          # API and MLOps scripts
 │── README.md            # Project documentation
+```
+
+## 🛠️ Tech Stack
+
+- Python: Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch, XGBoost
+
+- Visualization: Matplotlib, Seaborn
+
+- MLOps: MLflow, FastAPI/Flask, Docker
+
+- Data: Kaggle datasets + simulated IoT data
+
+## 📊 Deliverables
+
+- 1️⃣ Dataset exploration & EDA
+- 2️⃣ Feature engineering & analysis
+- 3️⃣ Model training & evaluation
+- 4️⃣ Deployment with monitoring
+- 5️⃣ Final documentation & presentation
+
+## 📈 Impact & Future Work
+
+-  Predict failures early → reduce costs & downtime
+-  Real-time scalable system for Industry 5.0
+-  Expand datasets with real-world IoT data
+-  Add edge computing for on-device predictions
+
