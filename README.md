@@ -7,7 +7,7 @@ An enterprise-grade AI-driven predictive maintenance system that identifies equi
 
 **DEPI Project – Team 2**
 
----
+
 
 ## 📋 Table of Contents
 
@@ -16,15 +16,11 @@ An enterprise-grade AI-driven predictive maintenance system that identifies equi
 - [Performance](#-performance)
 - [Project Structure](#-project-structure)
 - [Tech Stack](#%EF%B8%8F-tech-stack)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Usage](#-usage)
 - [Model Performance](#-model-performance)
 - [Results & Analysis](#-results--analysis)
 - [Deployment](#-deployment)
 - [Contributing](#-contributing)
 - [Team](#-team)
-- [License](#-license)
 
 ---
 
