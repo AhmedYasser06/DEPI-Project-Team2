@@ -77,6 +77,8 @@ This project implements a comprehensive predictive maintenance solution that lev
 | **ROC-AUC**   | **0.9822** | Excellent discrimination capability      |
 | **Accuracy**  | **96.18%** | Overall prediction accuracy              |
 
+### All Pretrained Models : https://drive.google.com/drive/folders/1LDGlY4Bqhcyc7g-rCtGBw5am0zp7hE6T?usp=drive_link
+
 ### Confusion Matrix Breakdown
 
 ```
