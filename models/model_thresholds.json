@@ -1,0 +1,9 @@
+{
+    "XGBoost_Optimized": 0.47999999999999976,
+    "CatBoost_Optimized": 0.5099999999999998,
+    "LightGBM_Optimized": 0.8899999999999996,
+    "RandomForest_Optimized": 0.8099999999999996,
+    "CatBoost_Calibrated": 0.3699999999999999,
+    "Stacking_Ensemble": 0.8399999999999996,
+    "Voting_Ensemble": 0.6499999999999997
+}
