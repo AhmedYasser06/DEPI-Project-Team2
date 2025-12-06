@@ -40,7 +40,7 @@ This project implements a comprehensive predictive maintenance solution that lev
 
 - **Real-time Monitoring**: Process IoT sensor streams continuously
 - **Advanced ML Models**: Ensemble of 7 optimized algorithms
-- **High Accuracy**: 96.18% overall accuracy with 70.87% F1-score on failures
+- **High Accuracy**: 96.18% overall accuracy with 80.20% F1-score on failures
 - **Interpretable Results**: SHAP-based explanations for predictions
 - **Production Ready**: Complete deployment pipeline with API
 
@@ -71,9 +71,9 @@ This project implements a comprehensive predictive maintenance solution that lev
 
 | Metric        | Score      | Description                              |
 | ------------- | ---------- | ---------------------------------------- |
-| **F1-Score**  | **0.7087** | Primary optimization target              |
-| **Precision** | **0.6475** | 64.75% of predicted failures are correct |
-| **Recall**    | **0.7826** | Catches 78.26% of actual failures        |
+| **F1-Score**  | **0.802**  | Primary optimization target              |
+| **Precision** | **0.761**  | 76.1% of predicted failures are correct |
+| **Recall**    | **0.8476** | Catches 84.76% of actual failures        |
 | **ROC-AUC**   | **0.9822** | Excellent discrimination capability      |
 | **Accuracy**  | **96.18%** | Overall prediction accuracy              |
 
@@ -175,7 +175,7 @@ AI-Predictive-Maintenance/
 
 | Rank | Model                  | Threshold | F1-Score   | Precision | Recall | ROC-AUC |
 | ---- | ---------------------- | --------- | ---------- | --------- | ------ | ------- |
-| 🥇   | **CatBoost Optimized** | 0.50      | **0.7087** | 0.6475    | 0.7826 | 0.9822  |
+| 🥇   | **CatBoost Optimized** | 0.50      | **0.802**  | 0.761     | 0.8476 | 0.9822  |
 | 🥈   | CatBoost Calibrated    | 0.30      | 0.7029     | 0.6154    | 0.8194 | 0.9818  |
 | 🥉   | Voting Ensemble        | 0.63      | 0.7022     | 0.6232    | 0.8042 | 0.9818  |
 | 4    | LightGBM Optimized     | 0.89      | 0.7017     | 0.6214    | 0.8060 | 0.9818  |
@@ -189,7 +189,7 @@ AI-Predictive-Maintenance/
                 precision    recall  f1-score   support
 
    No Failure      0.9861    0.9731    0.9796     70547
-      Failure      0.6475    0.7826    0.7087      4453
+      Failure      0.761     0.8476    0.802      4453
 
      accuracy                           0.9618     75000
     macro avg      0.8168    0.8778    0.8441     75000
@@ -250,7 +250,7 @@ Based on SHAP analysis:
 | Threshold | Precision  | Recall     | F1-Score   | Use Case              |
 | --------- | ---------- | ---------- | ---------- | --------------------- |
 | 0.30      | 0.5521     | 0.8854     | 0.6806     | Maximize recall       |
-| **0.50**  | **0.6475** | **0.7826** | **0.7087** | **Balanced**          |
+| **0.50**  | **0.761**  | **0.8476** | **0.802**  | **Balanced**          |
 | 0.70      | 0.7329     | 0.6195     | 0.6714     | Minimize false alarms |
 | 0.90      | 0.8542     | 0.3126     | 0.4580     | High precision        |
 
@@ -418,7 +418,12 @@ Please use GitHub Issues for bug reports and feature requests. Include:
 
 ## 👥 Team
 
-**DEPI Project – Team 2**
+- **Ahmed Yasser (⭐ Team Leader)**
+- **Ahmed Maged**
+- **Mohamed Elshamy**
+- **Mohamed Atef**
+- **Ashraf Ahmed**
+- **Sama Moheb**
 
 | Role                | Responsibility                    |
 | ------------------- | --------------------------------- |
